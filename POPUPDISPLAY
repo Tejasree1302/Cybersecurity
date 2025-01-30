@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Example</title>
+    <script type="text/javascript">
+        function showPopup() {
+            alert("You are hacked");
+        }
+    </script>
+</head>
+<body>
+    <h2>Click the link to see the message:</h2>
+    <a href="javascript:void(0);" onclick="showPopup()">Click here</a>
+</body>
+</html>
